@@ -14,32 +14,24 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<strong class="text-xl uppercase">Skeleton</strong>
+				<strong class="text-xl uppercase">Super Earth Data Center</strong>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<a
 					class="btn btn-sm variant-ghost-surface"
-					href="https://discord.gg/EXqV7W8MtY"
+					href="https://github.com/dealloc/helldivers2-api"
 					target="_blank"
 					rel="noreferrer"
 				>
-					Discord
+					HD2 Unofficial API
 				</a>
 				<a
 					class="btn btn-sm variant-ghost-surface"
-					href="https://twitter.com/SkeletonUI"
+					href="https://helldivers-2.fly.dev/api/swaggerui"
 					target="_blank"
 					rel="noreferrer"
 				>
-					Twitter
-				</a>
-				<a
-					class="btn btn-sm variant-ghost-surface"
-					href="https://github.com/skeletonlabs/skeleton"
-					target="_blank"
-					rel="noreferrer"
-				>
-					GitHub
+					Swagger UI Docs
 				</a>
 			</svelte:fragment>
 		</AppBar>
